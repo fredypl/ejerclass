@@ -1,0 +1,22 @@
+﻿Question 1: What’s difference between Portable (CPL) and Shared (SAP) projects?
+
+THE PORTABLE PROJECTS (CPL) CAN CREATE A DDL FOR THREE APPLICATIONS
+PROJECTS SHARED (SAP) IN REQUIRE A CODE FOR EVERY APPLICATION. 
+
+Question 2: What are the requirements to configure Xamarin Mac Agent?
+you must enable remote login on your Mac.
+Open Spotlight (Cmd-Space), search for Remote Login, and then select the Share result. The System Preferences menu will open in the Share panel.
+Check the Remote login option in the Service list on the left to allow Xamarin for Visual Studio to connect to the Mac computer.
+Ensure that Remote Login is set to allow All Users access or that the Mac User Name or Group is included in the list of allowed users in the list on the right.
+Visual Studio should already detect the Mac if it is on the same network. When Visual Studio attempts to connect to the Mac, you will be prompted to log in from Visual Studio using the Mac user credentials.
+
+Question 3: How many projects you have and why you need all?
+
+IT HAS 4 PROJECTS
+NAMEPROYECT (PORTABLE)
+NAMEPROYECT.Andorid
+NAMEPROYECT.iOS
+NAMEPROYECT.UWP (Universal Windows)
+
+
+so you can develop better in a single project within three different platforms. which are the basis of the platforms in the market.
